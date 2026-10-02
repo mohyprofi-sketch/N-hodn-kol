@@ -25,9 +25,16 @@ while True:
     elif user_text == "motivace":
         moje_ai.motivace()
 
+    # pridá tlacitko na ukonceni programu
+    elif user_text == "esc":
+        break
 
+    # hezčí vyobrazení
     else:
-        print("Neznámý příkaz, zkus 'odpoved' nebo 'motivace'")
+        print("""Neznámý příkaz
+        zkus 'odpoved' nebo 'motivace'
+        pro ukončení napiš `esc`
+        """)
         
         
         
